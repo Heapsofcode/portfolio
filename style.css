@@ -8,14 +8,29 @@ h1 {
     font-family: Montserrat;
     font-size: 42px;
     margin: 0px;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+footer {
+    
+    width: 100vw;
+    background-color: darkgray;
+}
+
+.footer-p {
+    text-align: center;
 }
 
 .nav-bar {
-    background-color: darkgray;
+    background-color: #C6C7C4;
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1rem 3.5rem;
 }
 
 .nav {
@@ -34,36 +49,49 @@ h1 {
 }
 
 .ul-list a:hover {
-
+    
 }
 
 .ul-list a:visited {
-    
+    color: rgb(41, 40, 40);
 }
 
 #about-me-container {
     display: flex;
     padding: 2rem;
+    background-color: #EEF0F2;
+    gap: 100px;
+    
 }
 
 #about-me {
-    width: 50%;
+    width: 600px;
+    
+}
+#about-me p {
+    line-height: 2rem;
+
 }
 
 #img-container {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+    
+   
+       
 }
 
 
 #paul-img {
+    padding: 0px 20px;
     width: 300px;
     height: 300px;
-    /* filter: grayscale(100%); */
+    filter: grayscale(100%);
     border-radius: 25%;
-}
+    }
 
 img {
     
+}
+
+#projects-container {
+    background-color: darkkhaki;
 }

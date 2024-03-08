@@ -2,6 +2,9 @@ body {
     width: 100vw;
     background-color: rgb(238, 229, 229);
     margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -17,9 +20,9 @@ h2 {
 }
 
 footer {
-    
     width: 100vw;
     background-color: darkgray;
+    margin-top: auto;
 }
 
 .footer-p {
@@ -94,4 +97,45 @@ img {
 
 #projects-container {
     background-color: darkkhaki;
+    
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+    
+    
 }
+
+#projects-container h2 {
+    font-size: 32px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+#project-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 2rem 6rem;
+    margin: 0;
+}
+
+#project-one-info {
+display: none;
+}
+
+#project-two-info {
+display: none;
+}
+
+#project-three-info {
+display: none;
+}
+
+
+
+
+
+

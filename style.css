@@ -96,7 +96,7 @@ img {
 }
 
 #projects-container {
-    background-color: darkkhaki;
+    background-color: rgb(189, 189, 185);
     
     font-family: montserrat;
     display: flex;
@@ -114,28 +114,85 @@ img {
     padding: 2rem 0;
 }
 
+#project-list:hover {
+    cursor: pointer;
+}
+
 #project-list {
     display: flex;
     list-style: none;
     justify-content: space-between;
     padding: 2rem 6rem;
     margin: 0;
+    color: rgb(210, 210, 210);
+    text-shadow: 1px 1px rgb(29, 32, 30);
+    font-size: 1.5rem;
+}
+
+#project-info-container {
+    display: flex;
+    flex-direction: row;
+    
 }
 
 #project-one-info {
-display: none;
+    background-color: rgb(201, 223, 169);
+    display: none;
+    align-items: center;
+    
+}
+
+#project-one-info p {
+    margin: 0;
+    padding: 0 2rem;
+}
+
+#project-one-info:hover {
+    cursor: pointer;
 }
 
 #project-two-info {
-display: none;
+    background-color: orange;
+    display: none;
+    align-items: center;
+    
+}
+
+#project-two-info p {
+    margin: 0;
+    padding: 0 2rem;
+}
+
+#project-two-info:hover {
+    cursor: pointer;
 }
 
 #project-three-info {
-display: none;
+    background-color: red;
+    display: none;
+    align-items: center;
+    
 }
 
+#project-three-info p {
+    margin: 0;
+    padding: 0 2rem;
+}
+
+#project-three-info:hover {
+    cursor: pointer;
+}
+
+#skills-container {
+
+display: flex;
 
 
+}
+
+#skills-container h2 {
+
+}
 
 
 

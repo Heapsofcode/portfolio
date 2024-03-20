@@ -76,13 +76,6 @@ footer {
 
 }
 
-#img-container {
-    
-   
-       
-}
-
-
 #paul-img {
     padding: 0px 20px;
     width: 300px;
@@ -90,10 +83,6 @@ footer {
     filter: grayscale(100%);
     border-radius: 25%;
     }
-
-img {
-    
-}
 
 #projects-container {
     background-color: rgb(189, 189, 185);
@@ -184,15 +173,20 @@ img {
 }
 
 #skills-container {
-
-display: flex;
-
-
+    display: flex;
 }
 
-#skills-container h2 {
+/* Contact Page */
 
+#contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: montserrat;
 }
 
-
-
+#contact-list {
+    flex-direction: column;
+}

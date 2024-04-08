@@ -165,8 +165,15 @@ footer {
 #skills-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 3rem;
-    height: auto;
+    padding: 2rem;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 2rem;
+    
+}
+
+#skills-container h2 {
+    text-align: center;
 }
 
 #skill-icons {
